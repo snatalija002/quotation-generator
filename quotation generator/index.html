@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quotation Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Random quote generator</h1>
+    </header>
+
+    <div class="div-container">
+      <div class="options">
+      <div class="div_radio" id="div_radio">
+        <label class="container" style="size: 10px;" onclick="updateType(1)">Harry Potter Quotes
+            <input type="radio" id="1" name="number" value="one">
+            <span class="checkmark"></span>
+          </label>
+        <label class="container" style="size:10px;"onclick="updateType(2)">Praćnuo se šarančić
+            <input type="radio" id="2" name="number" value="two" >
+            <span class="checkmark"></span>
+          </label>
+      </div>
+        <div class="dropdown">
+            <button class="dropbtn">Number of quotes</button>
+            <div class="dropdown-content">
+                <a onclick="updateNumber(1)">1</a>
+                <a onclick="updateNumber(2)">2</a>
+                <a onclick="updateNumber(3)">3</a>
+                <a onclick="updateNumber(4)">4</a>
+                <a onclick="updateNumber(5)">5</a>
+            </div>
+        </div>
+        <h2 id="side_text">1</h2>
+        <br/>
+
+        <button class="submit" id="submit_btn" onclick="generateQoute()">Generate Quote</button>
+
+        <h1 id="quote">Quote: </h1>
+    </div>
+
+    <script src="javascript.js"></script>
+  </body>
+</html>

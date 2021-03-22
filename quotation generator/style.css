@@ -1,0 +1,83 @@
+.dropbtn {
+		font-family:serif;
+		font-size: 20px;
+    background-color: pink;
+    color: white;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    margin-inline-end: 10px;
+    align-self: center;
+  }
+
+  .dropdown {
+		text-align: left;
+    position: relative;
+    font-family: serif;
+    display: inline-block;
+		margin-left: 50px;
+		border-radius: 20px;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    font-family: serif;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    font-family: serif;
+    text-decoration:none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: lightgray;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: lightgray;}
+
+h1
+{margin: 50px;
+}
+h2{
+display: inline;
+}
+
+  body{
+        max-width: 1000px;
+        color: white;
+        font-family: serif;
+        background-color: gray;
+				border-style:groove;
+
+  }
+
+  #submit_btn {
+    background-color: pink;
+    width: 500px;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin: 50px;
+    margin-top: 32px;
+    font-family: serif;
+  }
+
+  #submit_btn:hover{
+    background-color: lightgray;
+  }
+
+  #div_radio{
+    margin-bottom: 16px;
+    margin-top: 16px;
+    font-size:large;
+		margin: 50px;
+  }
